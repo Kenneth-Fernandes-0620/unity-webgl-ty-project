@@ -1,0 +1,22 @@
+{
+  "name": "unity-webgl-ty-project",
+  "version": "1.0.0",
+  "description": "3D reconstruction of the college using Blender and Unity(for WebGL) with Heroku hosting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenneth-Fernandes-0620/unity-webgl-ty-project.git"
+  },
+  "author": "Kenneth Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenneth-Fernandes-0620/unity-webgl-ty-project/issues"
+  },
+  "homepage": "https://github.com/Kenneth-Fernandes-0620/unity-webgl-ty-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
