@@ -1,7 +1,13 @@
 const express = require('express')
-const app = express();
+const compression = require('compression')
 
-app.use(express.static('public'));
+var app = express();
+
+app.use(compression({
+    level: 8,
+}))
+app.use(express.static('public'))
+
 
 const PORT = process.env.PORT || 5000;
 module.exports = app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
